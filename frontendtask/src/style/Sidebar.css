@@ -1,0 +1,68 @@
+
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar nav li.active {
+    background-color: #333a48;
+    border-radius: 10px;
+  }
+  
+  .pro-badge {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .support {
+    margin-top: 40px;
+  }
+  
+  .messages {
+    display: flex;
+    align-items: center;
+  }
+  
+  .badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .hide-scrollbar {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .css-1p3d2e7-MuiListItem-root{
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }
+
+  .css-f3y82x-MuiDrawer-docked .MuiDrawer-paper {
+    padding: 20px;
+    background-color:var(--sidebar-bg);
+    color: #fff;
+  }

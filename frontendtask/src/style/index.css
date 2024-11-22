@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #4318FF;
+    --secondary-color: #6AD2FF;
+    --text-color: black;
+    --bg-color: #F4F7FE;
+    --sidebar-bg: #1c2434;
+    --card-bg: #FFFFFF;
+  }
+
+  @font-face {
+    font-family: 'Open Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+}
+
+  .fill-current {
+    fill: #64748b;
+  }
+  body {
+    font-family: 'Open Sans Regular', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+  }
+  /* class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden" */

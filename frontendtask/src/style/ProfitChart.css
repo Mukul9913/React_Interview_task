@@ -1,0 +1,26 @@
+.profit-chart {
+    background-color: var(--card-bg);
+    border-radius: 0.125rem; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-header h3 {
+    margin: 0;
+  }
+  
+  .chart-header select {
+    padding: 5px 10px;
+    border: 1px solid #E0E5F2;
+    border-radius: 10px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+  }
+  

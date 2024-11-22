@@ -1,0 +1,34 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+  }
+  
+  .charts {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .stat-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .charts{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .stat-cards,.charts{
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,56 @@
+
+.stat-card {
+  border-radius: 0.125rem;
+  background-color: #FFFFFF;
+  padding: 1.875rem 1.875rem;
+  box-shadow: 0px 8px 13px -3px rgba(0, 0, 0, 0.07);
+  border: 1px solid #E6E6E6;
+}
+
+.stat-card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.875rem;
+  height: 2.875rem;
+  border-radius: 50%;
+  background-color: #F4F7FE;
+  color: #1E2235;
+}
+
+.stat-card .content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.stat-card .content h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.stat-card .content .title {
+  margin: 5px 0;
+  font-size: 0.875rem;
+  font: bold;
+}
+
+
+
+.stat-card .change {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: end;
+  font-weight: 600;
+  gap: 0.2rem;
+}
+
+.stat-card .change.positive {
+  color: #05CD99;
+}
+
+.stat-card .change.negative {
+  color: #259AE6;
+  ;
+}
+

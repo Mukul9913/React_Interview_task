@@ -1,0 +1,37 @@
+.revenue-chart {
+    background-color: var(--card-bg);
+    border-radius: 0.125rem; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .revenue-chart h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .chart-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chart-controls .date-range {
+    font-size: 14px;
+    color: #A3AED0;
+  }
+  
+  .chart-controls .time-frame button {
+    background: none;
+    border: none;
+    color: #A3AED0;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .chart-controls .time-frame button.active {
+    background-color: #F4F7FE;
+    border-radius: 10px;
+    color: var(--primary-color);
+  }
+  
